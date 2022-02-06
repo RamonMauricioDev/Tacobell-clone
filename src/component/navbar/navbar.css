@@ -1,7 +1,7 @@
-.navbar{
+.Navbar__div{
     background-color: #000;
     color: #fff;
-    position: sticky;
+    position: fixed;
     width: 150px;
     height: 100vh;
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 /* Logo */
-.navbar img{
+.Navbar__div img{
     padding: 20px;
 }
 
@@ -19,7 +19,7 @@
     src: url(font/Oswald-VariableFont_wght.ttf);
 }
 
-ul{
+.Navbar__list{
     width: 100%;
     transform: skew(0deg, -13deg);
     text-align: center;
@@ -31,13 +31,13 @@ ul{
     font-weight: 500;
 }
 
-li {
+.Navbar__item {
     background: #303030;
     font-family: 'Oswald';
     font-weight: 500;
     margin-block: 4px;
 }
 
-li:hover{
+.Navbar__item{
     cursor: pointer;
 }
