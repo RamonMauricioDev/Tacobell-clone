@@ -1,6 +1,6 @@
 .Navbar__div{
-    background-color: #000;
-    color: #fff;
+    background-color: var(--navbar-background-color);
+    color: var(--navbar-font-color);
     position: fixed;
     width: 150px;
     height: 100vh;
@@ -10,7 +10,7 @@
 }
 
 /* Logo */
-.Navbar__div img{
+.Navbar__logo{
     padding: 20px;
 }
 
@@ -25,14 +25,14 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    line-height: 65px;
+    line-height: 55px;
     list-style: none;
     font-size: 20px;
     font-weight: 500;
 }
 
 .Navbar__item {
-    background: #303030;
+    background: var(--navbar-item-color);
     font-family: 'Oswald';
     font-weight: 500;
     margin-block: 4px;
@@ -40,4 +40,14 @@
 
 .Navbar__item{
     cursor: pointer;
+}
+
+.Navbar__contact{
+    list-style: none;
+    display: flex;
+    width: fit-content;
+}
+
+.Navbar__links{
+    margin: 50px 5px 5px 0px;
 }

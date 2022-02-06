@@ -7,6 +7,13 @@ body{
     height: 2000px;
 }
 
+:root{
+    --tacobell-purple: #7124b4;
+    --navbar-background-color: #000;
+    --navbar-font-color: #fff;
+    --navbar-item-color: #303030;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
@@ -19,7 +26,7 @@ body{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #7124b4;
+    background: var(--tacobell-purple);
   }
   
   /* Handle on hover */
