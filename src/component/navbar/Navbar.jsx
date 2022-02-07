@@ -23,6 +23,9 @@ const Navbar = () => {
         {toggleMenu 
           ? <div className='Navbar__responsive-menu'>
               <RiCloseLine color="#fff" size={48} onClick={() => setToggleMenu(false)} />
+              <ul className='Navbar__responsive-menu-list'>
+                <Menu />
+              </ul>
             </div>
           : 
           <div className='Navbar__div'>

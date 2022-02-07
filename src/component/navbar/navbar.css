@@ -13,6 +13,11 @@
     height: 100vh;
 }
 
+.Navbar__responsive-menu-list{
+    font-size: 32px;
+    text-align: center;
+}
+
 .Navbar__content{
     width: 150px;
 }
@@ -41,13 +46,10 @@
 
 .Navbar__item {
     background: var(--navbar-item-color);
+    cursor: pointer;
     font-family: 'Oswald';
     font-weight: 500;
     margin-block: 4px;
-}
-
-.Navbar__item{
-    cursor: pointer;
 }
 
 .Navbar__contact{
@@ -60,13 +62,13 @@
     margin: 50px 15px 5px 0px;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 950px) {
     .Navbar__menu{
         display: none;
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 950px) {
     .Navbar__content{
         display: none;
     }
@@ -82,6 +84,14 @@
         justify-content: space-between;
         padding-block: 6px;
     }
+
+    .Navbar__item {
+        background: transparent;
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--navbar-item-color);
+        border-style: solid none none solid;
+    }    
     
     .Navbar__content{
         width: 150px;
@@ -100,4 +110,12 @@
     ::-webkit-scrollbar{
         display: none;
     }
+
+    .Navbar__item {
+        background: transparent;
+        border-width: 1px;
+        border-style: solid;
+        border-color: var(--navbar-item-color);
+        border-style: solid none none solid;
+    }    
 }
