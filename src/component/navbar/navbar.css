@@ -2,11 +2,14 @@
     background-color: var(--navbar-background-color);
     color: var(--navbar-font-color);
     position: fixed;
-    width: 150px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.Navbar__content{
+    width: 150px;
 }
 
 /* Logo */
@@ -49,5 +52,39 @@
 }
 
 .Navbar__links{
-    margin: 50px 5px 5px 0px;
+    margin: 50px 15px 5px 0px;
+}
+
+@media screen and (min-width: 1050px) {
+    .Navbar__menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .Navbar__content{
+        display: none;
+    }
+
+    .Navbar__div{
+        background-color: var(--navbar-background-color);
+        color: var(--navbar-font-color);
+        position: fixed;
+        width: 100vw;
+        height: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-block: 6px;
+    }
+    
+    .Navbar__content{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Navbar__content{
+        display: none;
+    }
 }
