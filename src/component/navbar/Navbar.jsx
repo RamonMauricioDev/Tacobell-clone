@@ -1,5 +1,11 @@
 import React, {useState} from 'react';
-import Logo from './images/logo.png'
+import Logo from './NavbarImages/ColorLogo.webp'
+import Delivery from './NavbarImages/Delivery.webp'
+import Instagram from './NavbarImages/Instagram.webp'
+import Marker from './NavbarImages/Marker.webp'
+import Twitter from './NavbarImages/Twitter.webp'
+import Facebook from './NavbarImages/Facebook.webp'
+import WhiteLogo from './NavbarImages/WhiteLogo.webp'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import './navbar.css'
 
@@ -30,8 +36,8 @@ const Navbar = () => {
           : 
           <div className='Navbar__div'>
             <RiMenu3Line color="#fff" size={48} onClick={() => setToggleMenu(true)} />
-            <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/ffffff/external-taco-bell-brings-people-together-with-mexican-inspired-food-food-bold-tal-revivo.png"/>
-            <img src="https://img.icons8.com/material-rounded/48/ffffff/marker.png"/>
+            <img src={WhiteLogo}/>
+            <img src={Marker}/>
           </div>
         }
         {toggleMenu && (
@@ -46,10 +52,10 @@ const Navbar = () => {
             <Menu />
         </ul>
         <ul className='Navbar__contact'>
-          <li className='Navbar__links'> <a href=""> <img src="https://img.icons8.com/ios-filled/25/ffffff/facebook-new.png"/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src="https://img.icons8.com/material-outlined/25/ffffff/instagram-new--v1.png"/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src="https://img.icons8.com/ios-filled/25/ffffff/twitter.png"/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src="https://img.icons8.com/ios-filled/25/ffffff/delivery--v1.png"/></a></li>
+          <li className='Navbar__links'> <a href=""> <img src={Facebook}/> </a></li>
+          <li className='Navbar__links'> <a href=""> <img src={Instagram}/> </a></li>
+          <li className='Navbar__links'> <a href=""> <img src={Twitter}/> </a></li>
+          <li className='Navbar__links'> <a href=""> <img src={Delivery}/></a></li>
         </ul>
       </div>
     </div>
