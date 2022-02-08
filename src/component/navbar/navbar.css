@@ -101,6 +101,10 @@
     ::-webkit-scrollbar{
         display: none;
     }
+    
+    .Navbar__contact{
+        margin-inline: auto;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -119,4 +123,8 @@
         border-color: var(--navbar-item-color);
         border-style: solid none none solid;
     }    
+
+    .Navbar__contact{
+        margin-inline: auto;
+    }
 }

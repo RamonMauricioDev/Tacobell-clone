@@ -20,6 +20,15 @@ const Menu = () => (
   </>
 )
 
+const Contact = () => (
+  <>
+    <li className='Navbar__links'> <a href=""> <img src={Facebook}/> </a></li>
+    <li className='Navbar__links'> <a href=""> <img src={Instagram}/> </a></li>
+    <li className='Navbar__links'> <a href=""> <img src={Twitter}/> </a></li>
+    <li className='Navbar__links'> <a href=""> <img src={Delivery}/></a></li>
+  </>
+)
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -31,6 +40,12 @@ const Navbar = () => {
               <RiCloseLine color="#fff" size={48} onClick={() => setToggleMenu(false)} />
               <ul className='Navbar__responsive-menu-list'>
                 <Menu />
+              </ul>
+              <ul className='Navbar__contact'>
+                <li className='Navbar__links'> <a href=""> <img src={Facebook}/> </a></li>
+                <li className='Navbar__links'> <a href=""> <img src={Instagram}/> </a></li>
+                <li className='Navbar__links'> <a href=""> <img src={Twitter}/> </a></li>
+                <li className='Navbar__links'> <a href=""> <img src={Delivery}/></a></li>
               </ul>
             </div>
           : 
@@ -52,10 +67,7 @@ const Navbar = () => {
             <Menu />
         </ul>
         <ul className='Navbar__contact'>
-          <li className='Navbar__links'> <a href=""> <img src={Facebook}/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src={Instagram}/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src={Twitter}/> </a></li>
-          <li className='Navbar__links'> <a href=""> <img src={Delivery}/></a></li>
+          <Contact />
         </ul>
       </div>
     </div>
