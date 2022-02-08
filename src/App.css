@@ -5,8 +5,7 @@
 }
 
 .Content{
-  margin-left: 150px;
-  width: calc(100vw - 150px);
+  margin: 0px 0px 0px 150px;
 }
 
 body{
@@ -38,4 +37,16 @@ body{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #401466;
+  }
+
+  @media screen and (max-width: 950px) {
+    .Content{
+      margin: 60px 0px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .Content{
+      margin: 60px 0px 0px 0px;
+    }
   }

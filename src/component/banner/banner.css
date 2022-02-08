@@ -1,3 +1,9 @@
 .Banner__image {
     width: calc(100vw - 150px);
 }
+
+@media screen and (max-width: 950px) {
+    .Banner__image{
+        width: 100vw;
+    }
+}
