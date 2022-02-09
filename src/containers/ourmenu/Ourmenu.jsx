@@ -3,9 +3,9 @@ import './ourmenu.css'
 
 const Ourmenu = () => {
   return (
-    <div>
+    <div className='ourmenu__div'>
       <header>Our menu</header>
-      <h1>The line up</h1>
+      <h3>The line up</h3>
     </div>
   )
 }

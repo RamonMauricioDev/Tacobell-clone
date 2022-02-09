@@ -8,8 +8,13 @@
   margin: 0px 0px 0px 150px;
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url(./font/Oswald-VariableFont_wght.ttf);
+}
+
 body{
-    height: 2000px;
+    font-family: Oswald;
 }
 
 :root{

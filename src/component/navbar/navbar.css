@@ -28,11 +28,6 @@
     padding: 20px;
 }
 
-@font-face {
-    font-family: 'Oswald';
-    src: url(font/Oswald-VariableFont_wght.ttf);
-}
-
 .Navbar__list{
     width: 100%;
     transform: skew(0deg, -13deg);
@@ -48,7 +43,6 @@
 .Navbar__item {
     background: var(--navbar-item-color);
     cursor: pointer;
-    font-family: 'Oswald';
     font-weight: 500;
     margin-block: 4px;
 }
