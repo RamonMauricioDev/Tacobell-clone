@@ -4,8 +4,8 @@ import './ourmenu.css'
 const Ourmenu = () => {
   return (
     <div className='ourmenu__div'>
-      <header>Our menu</header>
-      <h3>The line up</h3>
+      <h4>Our menu</h4>
+      <h3>The line-up</h3>
     </div>
   )
 }

@@ -3,7 +3,7 @@
     text-transform: uppercase;
 }
 
-.ourmenu__div header{
+.ourmenu__div h4{
     color: var(--tacobell-purple);
     font-size: 21px;
     padding-top: 48px;
