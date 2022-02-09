@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './banner.css'
-import image_one from './bannerImages/TUCT_Meal.webp';
-import image_two from './bannerImages/WebsiteHomepage.webp';
-import image_three from './bannerImages/BestOfBell.webp';
+import image_1 from './bannerImages/TUCT_Meal.webp';
+import image_2 from './bannerImages/WebsiteHomepage.webp';
+import image_3 from './bannerImages/BestOfBell.webp';
 
 const Banner = () => {
   return (
   <div>
-      <img src={image_one} alt="" className='Banner__image'/>
+      <img src={image_1} alt="" className='Banner__image'/>
   </div>
   )
 };
