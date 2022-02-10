@@ -20,25 +20,54 @@
 .menu__grid{
     display: grid; 
     grid-auto-flow: column; 
-    padding: 80px;
+    padding: 40px 80px 40px 80px;
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
-    gap: 40px 0px; 
+    gap: 40px 20px; 
     grid-template-areas: 
       ". . ."
       ". . .";
     grid-auto-flow: row;
 }
 
+.menu__container{
+    border-radius: 14px;
+    width: 100%;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.menu__container:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 30px #000;
+}
+
 .menu__container p{
     font-size: 20px;
-    fone-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-block: 15px;
 }
 
 .image__responsive{
-    width: 90%;
+    width: 100%;
     border-radius: 14px;
+}
+
+@media screen and (max-width: 700px) {
+    .menu__grid{
+        display: grid; 
+        grid-auto-flow: column; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 40px 0px; 
+        grid-template-areas: 
+            ". ."
+            ". ."; 
+    }
 }

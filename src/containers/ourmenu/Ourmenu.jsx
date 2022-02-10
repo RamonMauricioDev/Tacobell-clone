@@ -13,30 +13,30 @@ const Ourmenu = () => {
       <h4>Our menu</h4>
       <h3>The line-up</h3>
       <section class="menu__grid">
-        <div className='menu__container'>
+        <a className='menu__container'>
           <img src={Taco} alt="" className='image__responsive'/>
           <p>Taco</p>
-        </div>
-        <div className="menu__container">
+        </a>
+        <a className="menu__container">
           <img src={Burrito} alt="" className='image__responsive'/>
           <p>Burrito</p>
-        </div>
-        <div className="menu__container">
+        </a>
+        <a className="menu__container">
           <img src={Best_of_bell} alt="" className='image__responsive'/>
           <p>Best of bell</p>
-        </div>
-        <div className="menu__container">
+        </a>
+        <a className="menu__container">
           <img src={Specialties} alt="" className='image__responsive'/>
           <p>Specialities</p>
-        </div>
-        <div className="menu__container">
+        </a>
+        <a className="menu__container">
           <img src={Quesadilha} alt="" className='image__responsive'/>
           <p>Quesadilha</p>
-        </div>
-        <div className="menu__container">
+        </a>
+        <a className="menu__container">
           <img src={Meals} alt="" className='image__responsive'/>
           <p>Meals</p>
-        </div>
+        </a>
       </section>
     </div>
   )
