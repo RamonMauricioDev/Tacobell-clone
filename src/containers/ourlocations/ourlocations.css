@@ -1,7 +1,37 @@
 .Ourlocations__container{
     width: 100%;
-    height: 450px;
+    height: 550px;
     background-image: url("ourlocations images/Delhi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-block: 60px;
+}
+
+.Location__info{
+    color: white;
+    position: relative;
+    top: 80%;
+    left: 5%;
+}
+
+.Location__info h4{
+    font-size: 2.33em;
+}
+
+
+.Location__info h2{
+    font-size: 2.5em;
+}
+
+.Ourlocations__container a{
+    position: relative;
+    left: 80%;
+    top: 68%;
+    text-decoration: none;
+    background: white;
+    padding: 11px 25px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
 }
