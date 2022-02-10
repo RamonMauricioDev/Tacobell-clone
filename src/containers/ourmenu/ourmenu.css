@@ -7,6 +7,7 @@
     color: var(--tacobell-purple);
     font-size: 21px;
     padding-top: 48px;
+    margin-bottom: 30px;
 }
 
 .ourmenu__div h3{
@@ -14,4 +15,26 @@
     font-weight: 700;
     line-height: 1;
     letter-spacing: 2px;
+}
+
+.menu__grid{
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . .";
+    grid-auto-flow: row;
+}
+
+.menu__container{
+    
+}
+
+.image__responsive{
+    width: 90%;
+    border-radius: 14px;
 }
