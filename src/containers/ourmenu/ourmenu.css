@@ -20,18 +20,22 @@
 .menu__grid{
     display: grid; 
     grid-auto-flow: column; 
+    padding: 80px;
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
-    gap: 0px 0px; 
+    gap: 40px 0px; 
     grid-template-areas: 
       ". . ."
       ". . .";
     grid-auto-flow: row;
 }
 
-.menu__container{
-    
+.menu__container p{
+    font-size: 20px;
+    fone-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .image__responsive{
