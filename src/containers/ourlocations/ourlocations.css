@@ -1,0 +1,7 @@
+.Ourlocations__container{
+    width: 100%;
+    height: 450px;
+    background-image: url("ourlocations images/Delhi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -58,6 +58,19 @@
     border-radius: 14px;
 }
 
+.toggle-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.toggle-menu a{
+    text-transform: capitalize;
+    font-size: 19px;
+    text-decoration: none;
+    color: var(--tacobell-purple);
+}
+
 @media screen and (max-width: 700px) {
     .menu__grid{
         display: grid; 
