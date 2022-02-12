@@ -6,6 +6,7 @@ import Meals from './ourmenu images/meals.webp';
 import Quesadilha from './ourmenu images/quesadilha.webp';
 import Specialties from './ourmenu images/specialties.webp';
 import Taco from './ourmenu images/taco.webp';
+import DownArrow from './ourmenu images/down-arrow.webp'
 import 'font-awesome/css/font-awesome.min.css';
 
 const Ourmenu = () => {
@@ -40,11 +41,12 @@ const Ourmenu = () => {
         </a>
       </section>
       <div className='toggle-menu'>
-        <a href="#">View Complete Menu</a>
-        <a href="#">
-          View full menu
-        </a>
-        <a href="#">View Nutrition and Allergen Info</a>
+        <a href="#" className='view__menu'>View Complete Menu</a>
+        <a href="#" className='view__menu'>
+          <p>View full menu</p>
+          <img src={DownArrow} alt="" />
+          </a>
+        <a href="#" className='view__menu'>View Nutrition and Allergen Info</a>
       </div>
     </div>
   )
