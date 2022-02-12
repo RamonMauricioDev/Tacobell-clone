@@ -1,10 +1,11 @@
 .ourlocation__container{
     position: relative;
     padding-inline: 50px;
-    height: 35vw;
+    height: 45vw;
     background-image: url("./ourlocations images/Delhi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    color: #fff;
 }
 
 .ourlocation__content{
@@ -14,19 +15,30 @@
 
 .ourlocation__info{
     margin-block: 20px;
+    letter-spacing: 3px;
+}
+
+.ourlocation__info h4{
+    font-size: clamp(12px, 2.5vw, 26px);
+}
+
+.ourlocation__info h2{
+    font-size: clamp(22px, 4vw, 32px);
 }
 
 .ourlocation__buttons button{
+    background: transparent;
     width: 50px;
     height: 50px;
-    border: 1.5px solid #000;
+    border: 1.5px solid #fff;
+    cursor: pointer;
 }
 
 .ourlocation__interaction{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: calc(89vw - 150px);
+    width: calc(91vw - 150px);
 }
 
 .ourlocation__360{
@@ -34,14 +46,16 @@
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 0;
-    background-color: #000;
+    background-color: #fff;
     padding: 11px 25px;
     text-align: center;
     border-radius: 25px;
+    display: flex;
+    gap: 8px;
 }
 
 @media screen and (max-width: 950px) {
     .ourlocation__interaction{
-        width: 89vw;
+        width: 91vw;
     }
 }
