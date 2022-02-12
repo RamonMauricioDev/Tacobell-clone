@@ -1,17 +1,20 @@
-.taconews__grid{
-    width: calc(100vw - 150px);
+.taconews__grid-right{
+    width: calc(60vw - 150px);
+    float: right;
     padding: 20px;
     display: grid; 
     grid-auto-flow: column; 
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 5%; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 5% 5%; 
     grid-template-areas: 
-      ". ."; 
+        ". ."
+        ". .";
+    grid-auto-flow: row;
 }
 
-.taconews__grid *{
+.taconews__grid-right *{
     padding-block: 5px;
 }
 
@@ -23,12 +26,19 @@
 
 .taconews__photo{
     width: 100%;
-    height: 19vw;
+    height: 15vw;
     border-radius: 15px;
-    background-image: url('./taconews images/ultimate-taco.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.taconews__photo:nth-child(1){
+    background-image: url('./taconews images/ultimate-taco.png');
+}
+
+.taconews__photo:nth-child(2){
+    background-image: url('./taconews images/Cheesyween.jpg');
 }
 
 .taconews__info a{
