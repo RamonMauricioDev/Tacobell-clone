@@ -1,3 +1,23 @@
+.taconews__header{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.taconews__header h4{
+    color: var(--tacobell-purple);
+    font-size: 21px;
+    padding-top: 48px;
+    margin-bottom: 30px;
+}
+
+.taconews__header h3{
+    font-size: calc(2vw + 2vh);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
 .taconews__grid{
     width: calc(100vw - 150px);
     height: calc(55vw);

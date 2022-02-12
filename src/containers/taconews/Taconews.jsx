@@ -6,7 +6,7 @@ const Taconews = () => {
     <div className='taconews__container'>
       <header className='taconews__header'>
         <h4>Our news</h4>
-        <h2>Taco news</h2>
+        <h3>Taco news</h3>
       </header>
       <div className='taconews__grid'>
 
