@@ -3,7 +3,7 @@ import './taconews.css'
 
 const Taconews = () => {
   return (
-    <div>
+    <div className='taconews__container'>
       <header className='taconews__header'>
         <h4>Our news</h4>
         <h2>Taco news</h2>
@@ -13,9 +13,10 @@ const Taconews = () => {
           <div className='taconews__photo'></div>
           <div className='taconews__info'>
             <h6 className="taconews__date">dec 02, 2021</h6>
-            <h4 className="taconews__title">Taco Bell offers
-            A Cheesy surprise for its consumers with the launch of the Ultimate</h4>
-            <a href="#" className='taconews__readmore'>Read more </a>
+            <a href="#">
+              <h4 className="taconews__title">Tacobell offers
+              a cheesy surprise for its consumers with the launch of the ultimate cheese taco</h4>
+            </a>
           </div>
         </div>
       </div>
