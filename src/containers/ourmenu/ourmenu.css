@@ -80,7 +80,12 @@
         grid-template-rows: 1fr 1fr; 
         gap: 40px 0px; 
         grid-template-areas: 
-            ". ."
-            ". ."; 
+          ". ."
+          ". ."; 
+        grid-auto-flow: row;
+    }
+
+    .menu__container{
+        width: 90%;
     }
 }
