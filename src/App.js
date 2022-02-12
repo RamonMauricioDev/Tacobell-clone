@@ -10,6 +10,7 @@ function App() {
         <Banner/ >
         <Ourmenu/ >
         <Ourlocations/ >
+        <br />
       </div>
     </div>
   );

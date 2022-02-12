@@ -1,37 +1,47 @@
-.Ourlocations__container{
-    width: 100%;
-    height: 550px;
-    background-image: url("ourlocations images/Delhi.jpg");
-    background-repeat: no-repeat;
+.ourlocation__container{
+    position: relative;
+    padding-inline: 50px;
+    height: 35vw;
+    background-image: url("./ourlocations images/Delhi.jpg");
     background-size: cover;
-    padding-block: 60px;
+    background-repeat: no-repeat;
 }
 
-.Location__info{
-    color: white;
-    position: relative;
-    top: 80%;
-    left: 5%;
+.ourlocation__content{
+    position: absolute;
+    bottom: 5%;
 }
 
-.Location__info h4{
-    font-size: 2.33em;
+.ourlocation__info{
+    margin-block: 20px;
 }
 
-
-.Location__info h2{
-    font-size: 2.5em;
+.ourlocation__buttons button{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #000;
 }
 
-.Ourlocations__container a{
-    position: relative;
-    left: 80%;
-    top: 68%;
+.ourlocation__interaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(89vw - 150px);
+}
+
+.ourlocation__360{
     text-decoration: none;
-    background: white;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    background-color: #000;
     padding: 11px 25px;
     text-align: center;
     border-radius: 25px;
-    display: inline-block;
-    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .ourlocation__interaction{
+        width: 89vw;
+    }
 }
