@@ -114,6 +114,10 @@
     background-repeat: repeat-x;
 }
 
+.taconews__title, .taconews__description{
+    text-overflow: ellipsis;
+}
+
 .taco__news:nth-child(1) .taconews__photo{
     background-image: url('./taconews images/ultimate-taco.webp');
 }
@@ -135,6 +139,55 @@
 }
 
 @media screen and (max-width: 950px) {
+    .taconews__grid{
+        width: 100vw;
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+
+    .principal{
+        background-color: transparent;
+        grid-row: 1/2;
+    }
+
+    .principal .taconews__info{
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .principal .taconews__date{
+        color: #333;
+    }
+
+    .principal .taconews__title{
+        color: #1B193B;
+        font-weight: 900;
+        transition: 0.2s;
+    }
+
+    .spotlight{
+        /*
+        width: 100%;
+        height: 15vw;
+        border-radius: 15px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        */
+        width: 100%;
+        height: 15vw;
+        border-radius: 15px;
+        box-shadow: none;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .taconews__description{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .taconews__grid{
         width: 100vw;
         height: fit-content;

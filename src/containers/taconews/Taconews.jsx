@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './taconews.css'
 
 const ResponsiveNews = () => (
@@ -104,20 +104,19 @@ const Fullnews = () => (
 )
 
 const Taconews = () => {
-
   return (
     <div className='taconews__container'>
       <header className='taconews__header'>
         <h4>Our news</h4>
         <h3>Taco news</h3>
       </header>
-      <div className='taconews__grid'>
-            {
-              document.documentElement.clientWidth > 950 ?
-                <Fullnews />
-              :
-                <ResponsiveNews />
-            }
+      <div className='taconews__grid'>   
+          {
+            document.documentElement.clientWidth > 700 ?
+              <Fullnews />
+            :
+              <ResponsiveNews />
+          }
         </div>
       </div>
   )
