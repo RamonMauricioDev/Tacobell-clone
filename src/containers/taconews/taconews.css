@@ -112,24 +112,24 @@
     border-radius: 15px;
     background-color: black;
     box-shadow: 0px -4px 15px #d2d2d2;
-    background-image: url('./taconews images/ultimate-taco.png');
+    background-image: url('./taconews images/ultimate-taco.webp');
     background-size: contain;
     background-position: center center;
     background-repeat: repeat-x;
 }
 
 .taco__news:nth-child(2) .taconews__photo{
-    background-image: url('./taconews images/Cheesyween.jpg');
+    background-image: url('./taconews images/Cheesyween.webp');
 }
 
 .taco__news:nth-child(3) .taconews__photo{
-    background-image: url('./taconews images/campaign-kv.jpeg');
+    background-image: url('./taconews images/campaign-kv.webp');
 }
 
 .taco__news:nth-child(4) .taconews__photo{
-    background-image: url('./taconews images/Grilled-cheese.jpg');
+    background-image: url('./taconews images/Grilled-cheese.webp');
 }
 
 .taco__news:nth-child(5) .taconews__photo{
-    background-image: url('./taconews images/Tacoparty-fest.jpg');
+    background-image: url('./taconews images/Tacoparty-fest.webp');
 }

@@ -1,6 +1,6 @@
 import './App.css';
 import { Navbar, Banner } from './component';
-import { Ourmenu, Ourlocations, Taconews } from './containers'
+import { Ourmenu, Ourlocations, Taconews, Ordernow } from './containers'
 
 function App() {
   return (
