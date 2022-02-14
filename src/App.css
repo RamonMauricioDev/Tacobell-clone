@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.tacobell-h4{
+  color: var(--tacobell-purple);
+  font-size: 21px;
+  padding-top: 48px;
+  margin-bottom: 30px;
+}
+
+.tacobell-h3{
+  font-size: calc(2vw + 2vh);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+.tacobell-h3, .tacobell-h4{
+  text-transform: uppercase;
+}
+
 .Content{
   margin: 0px 0px 0px 150px;
   overflow: hidden;

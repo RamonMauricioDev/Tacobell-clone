@@ -1,20 +1,5 @@
 .ourmenu__div{
     text-align: center;
-    text-transform: uppercase;
-}
-
-.ourmenu__div h4{
-    color: var(--tacobell-purple);
-    font-size: 21px;
-    padding-top: 48px;
-    margin-bottom: 30px;
-}
-
-.ourmenu__div h3{
-    font-size: calc(2vw + 2vh);
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: 2px;
 }
 
 .menu__grid{

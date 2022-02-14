@@ -12,8 +12,8 @@ import 'font-awesome/css/font-awesome.min.css';
 const Ourmenu = () => {
   return (
     <div className='ourmenu__div'>
-      <h4>Our menu</h4>
-      <h3>The line-up</h3>
+      <h4 className='tacobell-h4'>Our menu</h4>
+      <h3 className='tacobell-h3'>The line-up</h3>
       <section class="menu__grid">
         <a className='menu__container'>
           <img src={Taco} alt="" className='image__responsive'/>
