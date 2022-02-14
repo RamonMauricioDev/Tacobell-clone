@@ -14,6 +14,13 @@
     -webkit-box-orient: vertical;
 }
 
+.taconews__description{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+}
+
 .taconews__grid{
     text-align: left;
     display: grid; 
