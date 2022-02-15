@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.2em;
-    height: 40%;
+    height: 20%;
 }
 
 .footer__link-row *{
@@ -58,4 +58,22 @@
 
 .footer__link-row *:hover{
     transform: scale(1.1);
+}
+
+.footer__logo{
+    width: auto;
+    height: 64px;
+}
+
+.footer__others{
+    margin-inline: 60px;
+}
+
+.footer__rights-and-social{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1.2px;
+    opacity: 0.8;
 }

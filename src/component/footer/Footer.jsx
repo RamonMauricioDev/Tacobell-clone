@@ -2,6 +2,9 @@ import React from 'react'
 import Logo from './footer image/ColorLogo.webp'
 import Discount from './footer image/discount.webp'
 import Path from './footer image/path.webp'
+import Facebook from './footer image/Facebook.webp'
+import Instagram from './footer image/Instagram.webp'
+import Twitter from './footer image/Twitter.webp'
 import './footer.css'
 
 const Footer = () => {
@@ -28,6 +31,18 @@ const Footer = () => {
             <a href="#">offers</a>
             <a href="#">about us</a>
             <a href="#">contact us</a>
+        </div>
+
+        <div className='footer__others'>
+            <img src={Logo} alt="" className='footer__logo'/>
+            <div className='footer__rights-and-social'>
+                <p>©2022tacobellCLONE, made for education purposes</p>
+                <div className='footer__images'>
+                    <a href="#"><img src={Facebook} alt="" /></a>
+                    <a href="#"><img src={Instagram} alt="" /></a>
+                    <a href="#"><img src={Twitter} alt="" /></a>
+                </div>
+            </div>
         </div>
     </div>
   )
