@@ -2,6 +2,9 @@ import React from 'react'
 import './taconews.css'
 import principal__photo from "./taconews images/ultimate-taco.webp"
 import CheesyWeen from "./taconews images/Cheesyween.webp"
+import campaingkv from './taconews images/campaign-kv.webp'
+import grilled from './taconews images/Grilled-cheese.webp'
+import tacoparty from './taconews images/Tacoparty-fest.webp'
 
 const ResponsiveNews = () => (
   <>
@@ -32,6 +35,32 @@ const Fullnews = () => (
           Taco bell goes a step ahead throws a unique cheesyween party for its customers on Halloween </a>
       </div>
     </div>
+
+    <div>
+      <div className='taconews__photo-normal' style={{backgroundImage: `url(${campaingkv})`}}></div>
+      <div className='taconews__info-normal'>
+        <h4 className='taconews__date'>oct 04, 2021</h4>
+        <a href="#" className="taconews__title">
+        Taco Bell hits the ultimate six this cricketing season with See A Six, Catch a Taco</a>
+      </div>
+    </div>
+    <div>
+      <div className='taconews__photo-normal' style={{backgroundImage: `url(${grilled})`}}></div>
+      <div className='taconews__info-normal'>
+        <h4 className='taconews__date'>oct 01, 2021</h4>
+        <a href="#" className="taconews__title">
+        Taco Bell introduces Grilled Cheese Burrito & Quesadilla</a>
+      </div>
+    </div>
+    <div>
+      <div className='taconews__photo-normal' style={{backgroundImage: `url(${tacoparty})`}}></div>
+      <div className='taconews__info-normal'>
+        <h4 className='taconews__date'>aug 05, 2021</h4>
+        <a href="#" className="taconews__title">
+        Taco Bell delights fans, introduces new 'Taco Party Feast'</a>
+      </div>
+    </div>
+
   </>
 )
 

@@ -52,6 +52,7 @@
 .taconews__date{
     font-size: 13.5px;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 .taconews__title{
