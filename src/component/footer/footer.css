@@ -21,11 +21,12 @@
 
 .footer__title{
     font-size: clamp(17.5px, 2vw ,24px);
+    text-decoration: none;
+    color: white;
     text-transform: uppercase;
     margin-top: 10%;
     font-weight: 100;
     opacity: 0.8;
-    cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
@@ -36,4 +37,25 @@
 
 .footer__description{
     font-size: clamp(13px, 1.5vw, 19.5px);
+}
+
+.footer__link-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+    height: 40%;
+}
+
+.footer__link-row *{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-size: clamp(11px, 2vw, 20px);
+}
+
+.footer__link-row *:hover{
+    transform: scale(1.1);
 }
