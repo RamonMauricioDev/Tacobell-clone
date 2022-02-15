@@ -13,7 +13,7 @@
     display: grid; 
     grid-template-columns: 1.2fr 0.9fr 0.9fr; 
     grid-template-rows: 1fr 1fr; 
-    gap: 0px 3%; 
+    gap: 3% 3%; 
     grid-template-areas: 
     ". . ."
     ". . ."; 
@@ -100,4 +100,60 @@
 .taconews__info-normal .taconews__title{
     font-size: 19px;
     color: #1B193B;
+}
+
+@media screen and (max-width: 950px) {
+    .taconews__description{
+        -webkit-line-clamp: 5;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .taconews__grid{
+        display: flex;
+        width: fit-content;
+        height: 40vh;
+        padding-inline: 20px;
+    }
+
+    .taconews:nth-child(n+3){
+        display: none;
+    }
+
+    .taconews__principal{
+        background-color: transparent;
+        border-radius: 15px;
+    }
+    
+    .taconews__principal .taconews__photo{
+        width: auto;
+        height: 60%;
+        padding: 0px;
+        border-radius: 15px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    .taconews__principal .taconews__info{
+        padding: 0px;
+    }
+
+    .taconews__principal .taconews__date{
+        margin-block: 10px;
+    }
+    
+    .taconews__principal .taconews__description{
+        display: none;
+    }
+
+    .full .taconews__date{
+        color: #333;
+    }
+
+    .full .taconews__title{
+        color: #1B193B;
+    }
 }

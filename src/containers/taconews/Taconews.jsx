@@ -14,7 +14,7 @@ const ResponsiveNews = () => (
 
 const Fullnews = () => (
   <>
-    <div className='taconews__principal'>
+    <div className='taconews taconews__principal'>
       <div className='taconews__photo full' style={{backgroundImage: `url(${principal__photo})`}}></div>
       <div className='taconews__info full'>
         <h4 className='taconews__date'>dec 02, 2021</h4>
@@ -27,7 +27,7 @@ const Fullnews = () => (
       </div>
     </div>
 
-    <div>
+    <div className='taconews'>
       <div className='taconews__photo-normal' style={{backgroundImage: `url(${CheesyWeen})`}}></div>
       <div className='taconews__info-normal'>
         <h4 className='taconews__date'>nov 02, 2021</h4>
@@ -36,7 +36,7 @@ const Fullnews = () => (
       </div>
     </div>
 
-    <div>
+    <div className='taconews'>
       <div className='taconews__photo-normal' style={{backgroundImage: `url(${campaingkv})`}}></div>
       <div className='taconews__info-normal'>
         <h4 className='taconews__date'>oct 04, 2021</h4>
@@ -44,7 +44,8 @@ const Fullnews = () => (
         Taco Bell hits the ultimate six this cricketing season with See A Six, Catch a Taco</a>
       </div>
     </div>
-    <div>
+    
+    <div className='taconews'>
       <div className='taconews__photo-normal' style={{backgroundImage: `url(${grilled})`}}></div>
       <div className='taconews__info-normal'>
         <h4 className='taconews__date'>oct 01, 2021</h4>
@@ -52,7 +53,8 @@ const Fullnews = () => (
         Taco Bell introduces Grilled Cheese Burrito & Quesadilla</a>
       </div>
     </div>
-    <div>
+
+    <div className='taconews'>
       <div className='taconews__photo-normal' style={{backgroundImage: `url(${tacoparty})`}}></div>
       <div className='taconews__info-normal'>
         <h4 className='taconews__date'>aug 05, 2021</h4>
@@ -60,7 +62,6 @@ const Fullnews = () => (
         Taco Bell delights fans, introduces new 'Taco Party Feast'</a>
       </div>
     </div>
-
   </>
 )
 
