@@ -1,13 +1,13 @@
 import React from 'react'
 import Instagramicon from './instagramfeed images/Instagram.webp'
 import InstagramID from './instagramfeed images/@tacobell-txt.webp'
-
+import './Instagramfeed.css'
 const Instagramfeed = () => {
   return (
-    <div className='Instagramfeed__container'>
-        <div className='Instagramfeed__header'>
-            <img src={Instagramicon} alt="" />
-            <img src={InstagramID} alt="" />
+    <div className='instagramfeed__container'>
+        <div className='instagramfeed__header'>
+            <img src={Instagramicon} alt="" className='instagram-icon'/>
+            <img src={InstagramID} alt="" className='instagram-id'/>
         </div>
         {
             //Script

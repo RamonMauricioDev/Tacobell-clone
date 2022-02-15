@@ -1,0 +1,16 @@
+.instagramfeed__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.instagramfeed__header *{
+    margin-bottom: 10px;
+}
+
+.instagram-id{
+    height: auto;
+    width: clamp(258px, 25%, 25vw);
+}
