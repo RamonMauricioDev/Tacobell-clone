@@ -71,6 +71,7 @@ const Taconews = () => {
       <div className='taconews__header'>
         <h4 className='tacobell-h4'>Our news</h4>
         <h3 className='tacobell-h3'>Taco news</h3>
+        <a href="#" className='taconews__seemore'>See more news</a>
       </div>
       <div className='taconews__grid'>
         <Fullnews></Fullnews>

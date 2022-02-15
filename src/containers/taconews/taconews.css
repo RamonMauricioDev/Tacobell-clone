@@ -102,6 +102,10 @@
     color: #1B193B;
 }
 
+.taconews__seemore{
+    display: none;
+}
+
 @media screen and (max-width: 950px) {
     .taconews__description{
         -webkit-line-clamp: 5;
@@ -155,5 +159,16 @@
 
     .full .taconews__title{
         color: #1B193B;
+    }
+
+    .taconews__seemore{
+        display: inline-block;
+        font-size: 13.5px;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .taconews__container .tacobell-h3{
+        margin-bottom: 0;
     }
 }
