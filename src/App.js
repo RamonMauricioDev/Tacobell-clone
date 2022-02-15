@@ -1,6 +1,6 @@
 import './App.css';
-import { Navbar, Banner } from './component';
-import { Ourmenu, Ourlocations, Taconews, Ordernow, Instagram } from './containers'
+import { Navbar, Banner, Footer } from './component';
+import { Ourmenu, Ourlocations, Taconews, Ordernow } from './containers'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Ourlocations />
         <Taconews />
         <Ordernow />
-        <Instagram />
+        <Footer />
       </div>
     </div>
   );
