@@ -4,9 +4,8 @@ import './ordernow.css'
 const Ordernow = () => {
   return (
     <div className='ordernow__container'>
-      <h1>Ordernow!</h1>
         <div className='ordernow__bg'>
-          <button className='ordernow__button'>Order now</button>
+          <a href="#" className='ordernow__link'>Order now!</a>
         </div>
     </div>
   )

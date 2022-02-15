@@ -6,13 +6,7 @@ import campaingkv from './taconews images/campaign-kv.webp'
 import grilled from './taconews images/Grilled-cheese.webp'
 import tacoparty from './taconews images/Tacoparty-fest.webp'
 
-const ResponsiveNews = () => (
-  <>
-   
-  </>
-)
-
-const Fullnews = () => (
+const News = () => (
   <>
     <div className='taconews taconews__principal'>
       <div className='taconews__photo full' style={{backgroundImage: `url(${principal__photo})`}}></div>
@@ -74,7 +68,7 @@ const Taconews = () => {
         <a href="#" className='taconews__seemore'>See more news</a>
       </div>
       <div className='taconews__grid'>
-        <Fullnews></Fullnews>
+        <News></News>
       </div>
     </div>
   )

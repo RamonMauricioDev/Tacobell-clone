@@ -11,6 +11,7 @@ function App() {
         <Ourmenu />
         <Ourlocations />
         <Taconews />
+        <Ordernow />
       </div>
     </div>
   );

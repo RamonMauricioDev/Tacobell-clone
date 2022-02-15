@@ -1,9 +1,28 @@
 .ordernow__bg{
-    height: 40vh;
+    height: 80vh;
     background-image: url('./ordernow images/ordernow-bg.webp');
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ordernow__button{
+.ordernow__link{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 22px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #7124b4;
+    transition: 0.3s ease-in-out;
+}
+
+.ordernow__link:hover{
+    background-color: #7124b4;
+    color: #fff;
+    transform: scale(1.1);
 }
