@@ -1,41 +1,33 @@
 import React, {useState, useEffect} from 'react';
 import './banner.css'
-import { BannerData } from './BannerData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import image_1 from './bannerImages/TUCT_Meal.webp';
+import image_2 from './bannerImages/WebsiteHomepage.webp';
+import image_3 from './bannerImages/BestOfBell.webp';
+import script from './changeImage'
 
-const Banner = ({slides}) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
-
-  const nextSlide = () =>{
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  }
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1: current - 1);
-  }
-
-  if (!Array.isArray(slides) || slides.length <= 0){
-    return null;
-  }
-
+const Banner = props => {
+  
   return (
-    <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {BannerData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='' className='Banner__image' />
-            )}
-          </div>
-        );
-      })}
-    </section>
+  <div className='slider'>
+      <div className='slides'>
+
+        <div className="slide first" id='first'>
+          <img src={image_1} alt="" />
+        </div>
+        <div className="slide">
+          <img src={image_2} alt="" />
+        </div>
+        <div className="slide">
+          <img src={image_3} alt="" />
+        </div>
+
+        <div className='navigation-auto'>
+          <div className="autobtn1"></div>
+          <div className="autobtn2"></div>
+          <div className="autobtn3"></div>
+        </div>
+      </div>
+  </div>
   )
 };
 
