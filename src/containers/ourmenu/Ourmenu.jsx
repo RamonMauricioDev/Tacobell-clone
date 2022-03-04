@@ -46,8 +46,7 @@ const Ourmenu = () => {
           <p>View full menu</p>
           <img src={DownArrow} alt="" />
           </a>
-        <a href="#" className='view__menu'>View Nutrition 
-        <br /> and Allergen Info</a>
+        <a href="#" className='view__menu'>View Nutrition and Allergen Info</a>
       </div>
     </div>
   )
