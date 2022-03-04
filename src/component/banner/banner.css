@@ -13,10 +13,6 @@
     display: none;
 }
 
-.slide{
-    transition: 0s;
-}
-
 .first {
     margin-left: calc((100vw - 150px) * 0);
 }
@@ -24,6 +20,7 @@
 .slide img{
     height: auto;
     width: calc(100vw - 150px);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px) {

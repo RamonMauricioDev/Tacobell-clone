@@ -48,12 +48,11 @@
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 30px;
-    margin-left: 74px;
 }
 
 .toggle-menu a{
     text-transform: capitalize;
-    font-size: 19px;
+    font-size: clamp(16px, 2vw, 24px);
     text-decoration: none;
     color: var(--tacobell-purple);
     transition: 0.2s;

@@ -3,7 +3,7 @@ import './banner.css'
 import image_1 from './bannerImages/TUCT_Meal.webp';
 import image_2 from './bannerImages/WebsiteHomepage.webp';
 import image_3 from './bannerImages/BestOfBell.webp';
-import script from './changeImage'
+import script from './changeImage';
 
 const Banner = props => {
   
@@ -14,6 +14,7 @@ const Banner = props => {
         <div className="slide first" id='first'>
           <img src={image_1} alt="" />
         </div>
+        
         <div className="slide">
           <img src={image_2} alt="" />
         </div>
