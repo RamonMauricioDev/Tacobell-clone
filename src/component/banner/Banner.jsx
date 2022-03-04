@@ -1,9 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './banner.css'
 import image_1 from './bannerImages/TUCT_Meal.webp';
 import image_2 from './bannerImages/WebsiteHomepage.webp';
 import image_3 from './bannerImages/BestOfBell.webp';
-import script from './changeImage';
 
 const Banner = props => {
   

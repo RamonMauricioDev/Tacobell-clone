@@ -1,7 +1,7 @@
 {
   "name": "tacobell-landingpage",
   "version": "0.1.0",
-  "homepage": "tacobell-landingpage",
+  "homepage": "http://argotenacius.github.io/Tacobell-clone",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.3.0-beta3",
@@ -21,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeplay": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
