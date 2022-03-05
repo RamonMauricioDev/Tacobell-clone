@@ -1,4 +1,5 @@
 <h1>About the project</h1>
+<img src="https://user-images.githubusercontent.com/94071579/156898440-25647e12-06d3-4171-a36d-c9d8b32796ea.png">
 <p>The project was made with the purpose to learn the framework React JS, while trying to improve the website performance.</p>
 <p>The original website can be found here: https://www.tacobell.co.in/ </p>
 <h1>technologies used</h1>
